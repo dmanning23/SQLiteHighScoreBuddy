@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>SQLiteHighScoreBuddy</id>
+		<version>2.0.0</version>
+		<title>SQLiteHighScoreBuddy</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/SQLiteHighScoreBuddy</projectUrl>
+		<licenseUrl>https://github.com/dmanning23/SQLiteHighScoreBuddy/blob/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>SQLiteHighScoreBuddy is a MonoGame library for saving and loading of local high score tables from SQL.</description>
+		<releaseNotes />
+		<copyright>Copyright 2016</copyright>
+		<tags>android, ios, windows universal, monogame, xamarin</tags>
+		<dependencies>
+
+			<!--Xamarin.Android-->
+			<group targetFramework="MonoAndroid10">
+				<dependency id="SQLiteConnectionBuddy" version="1.0"/>
+				<dependency id="SQLiteNetExtensions" version="2.0"/>
+				<dependency id="MonoGame.Framework.Android" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HighScoreBuddy" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+				
+			</group>
+
+			<!--Xamarin.iOS Unified-->
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="SQLiteConnectionBuddy" version="1.0"/>
+				<dependency id="SQLiteNetExtensions" version="2.0"/>
+				<dependency id="MonoGame.Framework.iOS" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="HighScoreBuddy" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+
+			</group>
+
+			<group targetFramework="net451">
+				<dependency id="SQLiteConnectionBuddy" version="1.0"/>
+				<dependency id="SQLiteNetExtensions" version="2.0"/>
+				<dependency id="MonoGame.Framework.WindowsDX" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="HighScoreBuddy" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+			</group>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<!--Xamarin.Android-->
+		<file src="SQLiteHighScoreBuddy.Android\bin\Release\SQLiteHighScoreBuddy.Android.pdb" target="lib\MonoAndroid10\SQLiteHighScoreBuddy.Android.pdb" />
+		<file src="SQLiteHighScoreBuddy.Android\bin\Release\SQLiteHighScoreBuddy.Android.dll" target="lib\MonoAndroid10\SQLiteHighScoreBuddy.Android.dll" />
+
+		<!--Xamarin.iOS Unified-->
+		<file src="SQLiteHighScoreBuddy.iOS\bin\Release\SQLiteHighScoreBuddy.iOS.pdb" target="lib\Xamarin.iOS10\SQLiteHighScoreBuddy.iOS.pdb" />
+		<file src="SQLiteHighScoreBuddy.iOS\bin\Release\SQLiteHighScoreBuddy.iOS.dll" target="lib\Xamarin.iOS10\SQLiteHighScoreBuddy.iOS.dll" />
+
+		<!--WindowsDX-->
+		<file src="SQLiteHighScoreBuddy.WindowsDX\bin\Release\SQLiteHighScoreBuddy.WindowsDX.pdb" target="lib\net451\SQLiteHighScoreBuddy.WindowsDX.pdb" />
+		<file src="SQLiteHighScoreBuddy.WindowsDX\bin\Release\SQLiteHighScoreBuddy.WindowsDX.dll" target="lib\net451\SQLiteHighScoreBuddy.WindowsDX.dll" />
+
+	</files>
+</package>
