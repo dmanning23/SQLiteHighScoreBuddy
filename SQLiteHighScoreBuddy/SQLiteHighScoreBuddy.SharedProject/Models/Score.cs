@@ -1,5 +1,4 @@
 ﻿using SQLite;
-using SQLiteNetExtensions.Attributes;
 
 namespace SQLiteHighScoreBuddy.Models
 {
@@ -14,10 +13,8 @@ namespace SQLiteHighScoreBuddy.Models
 		[MaxLength(16)]
 		public string Initials { get; set; }
 
-		[ForeignKey(typeof(Day))]
 		public int DayId { get; set; }
 
-		[ForeignKey(typeof(HighScoreList))]
 		public int HighScoreListId { get; set; }
 	}
 }
