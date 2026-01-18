@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>SQLiteHighScoreBuddy</PackageId>
+    <Version>5.0.0</Version>
+    <Title>SQLiteHighScoreBuddy</Title>
+    <Authors>dmanning23</Authors>
+    <description>SQLiteHighScoreBuddy is a MonoGame library for saving and loading of local high score tables from SQL.</description>
+    <PackageProjectUrl>https://github.com/dmanning23/SQLiteHighScoreBuddy</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/dmanning23/SQLiteHighScoreBuddy</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>monogame</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="HighScoreBuddy" Version="5.*" />
+    <PackageReference Include="SQLiteConnectionBuddy" Version="5.*" />
+  </ItemGroup>
+</Project>
